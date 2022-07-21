@@ -1,0 +1,112 @@
+.navbar-text {
+  font-size: 20px;
+}
+
+footer {
+  align-items: center;
+}
+
+.c-img {
+  width: auto;
+  max-width: 100%;
+  height: auto
+}
+
+h1 {
+  text-underline-position: below;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#W2 {
+  float: right;
+  margin: 0 0 0 15px;
+}
+
+#W3 {
+  float: left;
+  margin: 0 0 0 15px;
+}
+
+p {
+  font-size: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.p1 {
+  text-align: end;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(166, 188, 200);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+img {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+#top-button {
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000000;
+
+}
+
+main {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 8%;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+.gallery img {
+  width: 100%;
+}
